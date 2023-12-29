@@ -5,7 +5,7 @@ import fs from 'fs';
 export default function Home({ places }) {
   return (
     <div>
-      <h1>Locais (coordenadas):</h1>
+      <h1>Locais (coordenadas no brazil):</h1>
       <ul>
         {places.map((place, index) => (
           <li key={index}>
